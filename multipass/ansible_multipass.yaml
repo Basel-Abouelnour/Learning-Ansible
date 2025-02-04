@@ -1,0 +1,7 @@
+users:
+  - default
+  - name: ansibleadmin
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys: 
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDU0qJ1CU/8tMQjImG/p6DEYeVYrgmioJW0eSDwbX/qUQDkvaG/vBPiSu88SQ9NK5c2xHspA0k+MjJArEIZ0hL6DWgQSDimDFM9wqYzeiJQ7pC73oBDEnd50M/mG5Axyq4fkjhd9kidbVtC0uPkTbUpp99g0xtLUVaUtcFvKtTE4HB4bOPTQ5ydqnOGN91e92BLVlPrUH0YPopa+SNVS9jzqjM9j5YkweWZfGVQJfbUKaoQnsEQUjJELAFHwf4UbUWhdDtnJOTWHPIaKHOmqSX5cbWxlKkNutN7rL1NO9CUjMNPv0kt6yQ2cuR3lDYuCs8zN+5rlmAGga6kN8ipHtdEhXEZo2FGvF7rrrk3G8wBh9+gHC3jpaWE92AP5xBtddfYjNiiF2YRGlDQzDMQmJnwMcSVIqyUVn2vjF++T7oB3S5UwfdBZjt6gzEs3P9LwFmhP+IYCiFt43vKamZpMGM6SfjWyxXM9sAS14cedRwwmqtf7Vzhwnjq6ze//tmvW30= vagrant@ubuntu-jammy"
